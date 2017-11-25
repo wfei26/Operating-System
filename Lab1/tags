@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+COSINE_ONE	eecs678-lab-editors/simple.h	1;"	d
+COSINE_ONE	simple.h	1;"	d
+COSINE_TWO	eecs678-lab-editors/simple.h	2;"	d
+COSINE_TWO	simple.h	2;"	d
+LOOP_NUM	eecs678-lab-editors/simple.h	3;"	d
+LOOP_NUM	simple.h	3;"	d
+PRINT_NUM	eecs678-lab-editors/simple.h	4;"	d
+PRINT_NUM	simple.h	4;"	d
+display_onto_stdout	a.c	/^void display_onto_stdout(const char *str)$/;"	f
+display_onto_stdout	b.c	/^void display_onto_stdout(const char *str)$/;"	f
+display_onto_stdout	c.c	/^void display_onto_stdout(const char *str)$/;"	f
+display_onto_stdout	eecs678-lab-editors/simple.c	/^void display_onto_stdout(const char *str)$/;"	f
+display_onto_stdout	simple.c	/^void display_onto_stdout(const char *str)$/;"	f
+find_cosine	eecs678-lab-editors/simple.c	/^double find_cosine(double value)$/;"	f
+find_cosine	simple.c	/^double find_cosine(double value)$/;"	f
+main	eecs678-lab-editors/simple.c	/^int main(int argc, char **argv)$/;"	f
+main	simple.c	/^int main(int argc, char **argv)$/;"	f
+useless_loop	eecs678-lab-editors/simple.c	/^void useless_loop(int iterations)$/;"	f
+useless_loop	simple.c	/^void useless_loop(int iterations)$/;"	f
