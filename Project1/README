@@ -1,0 +1,61 @@
+This program is quite a shell
+
+Usage:
+	Build:
+		make
+	Run:
+		./quash
+	Clean:
+		make clean
+
+Functions implemented
+1. Run executables without arguments (10) 
+2. Run executables with arguments (10) 
+3. set for HOME and PATH work properly (5) 
+4. exit and quit work properly (5) 
+5. cd (with and without arguments) works properly (5) 
+6. PATH works properly. Give error messages when the executable is not found (10) 
+7. Child processes inherit the environment (5) 
+8. Allow background/foreground execution (&) (5) 
+9. Printing/reporting of background processes, (including the jobs command) (10) 
+10. Allow file redirection (> and <) (5) 
+11. Allow (1) pipe (|) (10) 
+12. Supports reading commands from prompt and from file (10)
+14. Bonus:
+    a. Support multiple pipes in one command. (10)
+    b. kill command delivers signals to background processes. The kill command has the format: killSIGNUMJOBID, where SIGNUM is an integer specifying the signal number, and JOBID is an integer that specifies the job that should receive the signal. (5)
+
+
+
+Test Cases Succeed:
+1. 
+	ls
+	ls -l
+2.
+	echo $PATH
+	echo $HOME
+	set PATH=/usr/bin:/bin
+	echo $PATH
+3.
+    cd 
+	cd ..
+	cd quash
+	cd adadasas
+	cd aaa.out
+	quit/exit
+4.
+	sleep 10 &
+	sleep 15 &
+	jobs
+	kill 15660    //the 15660 is the PID of command 'sleep 15 &'
+	jobs
+5.
+	ls -l | wc
+	cat quash.c | grep int | wc
+	ls -l > aaa.out
+	wc < aaa.out
+
+6.
+	./quash < text_in.sh
+
+	

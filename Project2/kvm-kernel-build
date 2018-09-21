@@ -1,0 +1,7 @@
+#!/bin/sh
+rev=$1
+if [ -z "$rev" ]; then
+	echo "Usage: kvm-kernel-build <revision>"
+	exit 1
+fi
+make-kpkg --rootcmd fakeroot --initrd --revision=$rev kernel_image 2>&1 | tee build.log
